@@ -1,0 +1,386 @@
+@media only screen and (max-width: 768px) {
+
+/*------------------ CSS for Header Section ---------------*/
+  .logo-img {
+    height: 100px;
+    width: 300px;
+    float: left;
+  }
+  .img {
+    height: 80px;
+    width: 300px;
+  }
+  .logo1-img {
+    height: 100px;
+    width: 70px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-icon-content {
+    display: none;
+  }
+  .header1-icon1-content1 {
+    display: none;
+  }
+  .header2-icon2-content2 {
+    display: none;
+  }
+  .header3-icon3-content3 {
+    display: none;
+  }
+
+/*------------------ CSS for Navbar Section ---------------*/
+
+/*------------------ CSS for Hero Section ---------------*/
+  .hero {
+    height: 300px;
+    width: 100%;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .p-icon {
+    height: 40px;
+    width: 100%;
+    padding-top: 20px;
+    background: transparent;
+  }
+  .hero p {
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+  }
+  .hero-h1 h1 {
+    padding-top: 50px;
+    padding-left: 30px;
+    color: aliceblue;
+  }
+  .hero-h1 h4 {
+    padding-left: 30px;
+    color: aliceblue;
+  }
+  
+
+/*------------------ CSS for Second Navbar Section ---------------*/
+  .nav-items{
+    display: none;
+  }
+  
+
+/*------------------ CSS for Main Section ---------------*/
+  .main {
+    width: 100%;
+  }
+  .section1 {
+    height: 450px;
+    width: 100%;
+  }
+  .section1 h1 {
+    padding-top: 0px;
+    padding-left: 40px;
+    font-size: 20px;
+  }
+  .section1 h5 {
+    padding-left: 45px;
+    font-size: 12px;
+  }
+  .section2 {
+    height: 450px;
+    width: 100%;
+  }
+  .section-img {
+    height: 300px;
+    width: 80%;
+    background-image: url(treat.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .container-main {
+    width: 100%;
+    display: flex;
+  }
+  .container1 {
+    width: 100%;
+  }
+  .container2 {
+    display: none;
+  }
+  
+
+
+  .accordion h1 {
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  .accordion-item {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .container-content-7 {
+    display: none;
+  }
+  .carousel-1 {
+    background: lightgray;
+    width: 100%;
+  }
+  .carousel-1 h2 {
+    padding-left: 200px;
+    padding-top: 30px;
+    color: red;
+  }
+  .carousel-1 h3 {
+    padding-left: 100px;
+  }
+  #owl-demo{
+    margin:0px 60px;
+}
+
+
+.carousel-2 h3 i{
+    color: red;
+    padding-left: 225px;
+}
+.carousel-2 h2{
+    padding-left: 120px;
+}
+.owl-carousel .item-2{
+    width: 403px;
+    border: 2px dashed red;
+    margin: 0px 80px;
+}
+.owl-carousel .item-2 .car2 img{
+    width: 400px;
+    height: 450px;
+}
+.item-2 .con-2 h4{
+    padding: 20px 0px 0px 120px;
+}
+.item-2 .con-2 h6 i{
+    color: red;
+    padding-left: 170px;
+}
+  .con-con-1 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .con-con-1 h6 {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .contact-1 {
+    height: 300px;
+    width: 100%;
+    background: #33ccff;
+  }
+  .contact-1 .a {
+    height: 50px;
+    width: 100%;
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  .contact-1 .a h6 {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .contact-1 .b {
+    height: 50px;
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  .contact-1 .b h3 {
+    padding-top: 25px;
+    font-size: 25px;
+  }
+  .contact-1 .c {
+    height: 100px;
+    width: 100%;
+  }
+  .contact-1 .c1 {
+    height: 100px;
+    width: 50%;
+    float: left;
+    padding-left: 60px;
+    padding-top: 70px;
+  }
+  .contact-1 .c1 button {
+    height: 50px;
+    width: 200px;
+    background: #3399ff;
+    color: aliceblue;
+  }
+  .contact-1 .c2 {
+    height: 100px;
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+  }
+  .contact-1 .c2 a {
+    color: aliceblue;
+    padding-left: 20px;
+  }
+  .contact-box {
+    width: 300px;
+    height: 150px;
+    background: white;
+    position: relative;
+    left: 250px;
+    top: 40px;
+    border-radius: 5px;
+  }
+  .footer-1 {
+    height: 250px;
+    width: 100%;
+    background: #003366;
+    float: left;
+  }
+  .footer-1 h5 {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: aliceblue;
+  }
+  .footer-1 ul li {
+    list-style: none;
+    padding-left: 70px;
+    color: aliceblue;
+  }
+  .footer-1 a {
+    color: aliceblue;
+  }
+  .footer-2 {
+    height: 300px;
+    width: 100%;
+    background: #0b2432;
+    float: left;
+  }
+  .footer-2 h5 {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: aliceblue;
+  }
+  .footer-2 ul li {
+    list-style: none;
+    padding-left: 70px;
+    color: aliceblue;
+  }
+  .footer-2 a {
+    color: aliceblue;
+  }
+
+  .footer-3 {
+    height: 300px;
+    width: 100%;
+    background: #0b2432;
+    float: left;
+  }
+  .footer-3 h5 {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: aliceblue;
+  }
+  .footer-3 ul li {
+    list-style: none;
+    padding-left: 70px;
+    color: aliceblue;
+  }
+  .footer-3 a {
+    color: aliceblue;
+  }
+
+  .footer-4 {
+    height: 400px;
+    width: 100%;
+    float: left;
+    background: #0b2432;
+  }
+  .footer-4-1 {
+    display: none;
+  }
+  .footer-4-2 {
+    height: 300px;
+    width: 100%;
+    background: #0b2432;
+  }
+  .footer-4-2 h5 {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: aliceblue;
+  }
+  .footer-4-2 ul li {
+    list-style: none;
+    padding-left: 70px;
+    color: aliceblue;
+  }
+  .footer-4-2 a {
+    color: aliceblue;
+  }
+  .hospital {
+    height: 640px;
+    width: 100%;
+    border-top: 2px solid white;
+    background: #0b2432;
+    display: flex;
+    flex-direction: column;
+  }
+  .hospital-1 {
+    height: 150px;
+    width: 100%;
+  }
+  .hospital-1 img {
+    height: 120px;
+    width: 350px;
+    margin-left: 30px;
+  }
+  .hospital-2 {
+    height: 300px;
+    width: 100%;
+  }
+  .hospital-2 h3 {
+    padding-top: 20px;
+  }
+  .hospital-3 {
+    height: 180px;
+    width: 100%;
+  }
+  .hospital-3 h2 {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  .hospital-3 a i{
+    margin-left: 10px;
+}
+  .hospital-3 h3 {
+    padding-left: 40px;
+  }
+  .hospital-3 h4 {
+    padding-left: 40px;
+  }
+
+  .copyright {
+    width: 100%;
+    height: 100px;
+  }
+  .text-1 {
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+  .text-1 h6 {
+    color: aliceblue;
+    font-size: 12px;
+  }
+  .text-3 {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .text-3 h6 {
+    color: aliceblue;
+    font-size: 10px;
+  }
+}

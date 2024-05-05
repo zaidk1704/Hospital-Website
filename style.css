@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.page-loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    width: 50px;
+    height: 50px;
+    border: 10 solid #ccc;
+    border-top: 10px solid #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*------------------ CSS for Header Section ---------------*/
+
+.header {
+  height: 100px;
+  width: 90%;
+  background: white;
+  margin-left: 5%;
+}
+.logo-img {
+  height: 100px;
+  width: 300px;
+  float: left;
+}
+.logo1-img {
+  height: 100px;
+  width: 70px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon-content {
+  height: 100px;
+  width: 250px;
+  float: left;
+  display: flex;
+}
+.header1-icon1-content1 {
+  height: 100px;
+  width: 250px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header2-icon2-content2 {
+  height: 100px;
+  width: 300px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.header3-icon3-content3 {
+  height: 100px;
+  width: 150px;
+  float: left;
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.icon {
+  height: 100px;
+  width: 60px;
+}
+.con {
+  height: 100px;
+  width: 235px;
+  justify-content: center;
+  align-items: center;
+}
+.icon1 {
+  height: 100px;
+  width: 60px;
+}
+.con1 {
+  height: 100px;
+  width: 250px;
+}
+.icon2 {
+  height: 100px;
+  width: 50px;
+}
+.con2 {
+  height: 100px;
+  width: 250px;
+}
+
+/*------------------ CSS for Navbar Section ---------------*/
+.navbar{
+    height: 60px;
+}
+#navbarSupportedContent ul li a:hover {
+  color: aliceblue;
+}
+.navbar-collapse ul li a {
+  margin: 10px;
+  color: white;
+}
+
+
+/*------------------ CSS for Hero Section ---------------*/
+.hero {
+  height: 400px;
+  width: 100%;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.p-icon {
+  height: 40px;
+  width: 100%;
+  background: transparent;
+}
+.p-icon p {
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+  margin: 4px;
+  color: aliceblue;
+}
+.hero-h1 {
+  height: 200px;
+  width: 100%;
+  background: transparent;
+}
+.hero-h1 h1 {
+  padding-top: 50px;
+  padding-left: 40px;
+  color: aliceblue;
+}
+.hero-h1 h4 {
+  font-size: 15px;
+  padding-left: 40px;
+  color: aliceblue;
+}
+.button-btn {
+  height: 40px;
+  width: 100%;
+  background: transparent;
+  padding-left: 90px;
+}
+.button-btn button {
+  height: 40px;
+  width: 200px;
+  background: #00ccff;
+  border: none;
+}
+
+/*------------------ CSS for Second Navbar Section ---------------*/
+.nav-items {
+  height: 70px;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items ul li {
+  float: left;
+  list-style: none;
+  margin: 40px;
+  padding-top: 25px;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.nav-items ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*------------------ CSS for Main Section ---------------*/
+.main {
+  height: 450px;
+  width: 100%;
+  display: flex;
+}
+.section1 {
+  height: 450px;
+  width: 60%;
+}
+.section1 h1 {
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.section1 h5 {
+  padding-left: 45px;
+  font-size: 15px;
+}
+.section2 {
+  height: 450px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-img {
+  height: 300px;
+  width: 80%;
+  background-image: url(treat.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container-main {
+  width: 100%;
+  display: flex;
+}
+.container1 {
+  width: 60%;
+  background-color: white;
+  height: 900px;
+  overflow: auto;
+}
+.container1::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.container1::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the thumb transparent */
+}
+
+.container1::-webkit-scrollbar-track {
+  background-color: transparent; /* Make the track transparent */
+}
+.container2 {
+  width: 40%;
+}
+.container-content-1 {
+  border-bottom: 2px dashed #00ccff;
+}
+.container-content-1 h1 {
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.container-content-1 p {
+  padding-left: 25px;
+  font-size: 15px;
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: justify;
+}
+.container-con1 {
+  margin-left: 30px;
+  line-height: 25px;
+}
+.container-content-2 h1 {
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.container-content-2 p {
+  padding-left: 25px;
+  font-size: 15px;
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: justify;
+}
+.container-con2 {
+  margin-left: 30px;
+  line-height: 25px;
+}
+.container-content-3 h1 {
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.container-content-3 p {
+  padding-left: 25px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: justify;
+}
+.container-con3 {
+  margin-left: 30px;
+  line-height: 25px;
+}
+.container-content-4 h1 {
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.container-content-4 p {
+  padding-left: 25px;
+  font-size: 15px;
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: justify;
+}
+.container-con4 {
+  margin-left: 30px;
+  line-height: 25px;
+}
+.container-content-5 h1 {
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-content-5 p {
+  padding-left: 25px;
+  font-size: 15px;
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: justify;
+}
+.container-con5 {
+  margin-left: 30px;
+  line-height: 25px;
+}
+.accordion h1 {
+  padding-left: 110px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.accordion-item {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 100%;
+  background-color: white;
+}
+.form {
+  height: 600px;
+  width: 400px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+.container-content-7 {
+  margin-top: 50px;
+}
+.carousel-1 {
+  background: lightgray;
+  width: 100%;
+}
+.carousel-1 h2 {
+  padding-left: 700px;
+  padding-top: 50px;
+  color: red;
+}
+.carousel-1 h3 {
+  padding-left: 600px;
+}
+#owl-demo{
+    margin:0px 70px;
+}
+#owl-demo .item{
+    width: 350px;
+    height: 400px;
+    background: white;
+    margin: 0px 10px;
+}
+#owl-demo .image img {
+    height: 300px;
+    width: 350px;
+    padding: 15px 30px;
+}
+#owl-demo .car h4{
+    color: red;
+    padding-left: 80px;
+}
+#owl-demo .car h5{
+    padding-left: 15px;
+}
+#owl-demo .car h6{
+    padding-left: 70px;
+}
+.carousel-2 h3 i{
+    color: red;
+    padding-left: 700px;
+    padding-top: 100px;
+}
+.carousel-2 h2{
+    padding-left: 580px;
+}
+.carousel-2 h2 span{
+    color: #00ccff;
+}
+.owl-carousel .item-2{
+    border: 2px dashed red;
+    border-radius: 5px;
+    margin: 0px 50px;
+}
+.owl-carousel .item-2 .car2 img{
+    width: 397px;
+    height: 450px;
+    border-radius: 5px 5px 0px 5px;
+}
+.item-2 .con-2 h4{
+    padding: 30px 0px 0px 100px;
+}
+.item-2 .con-2 h6 i{
+    color: red;
+    padding-left: 150px;
+}
+.con-con-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-1 {
+  height: 400px;
+  width: 100%;
+  background: #33ccff;
+}
+.contact-1 .a {
+  height: 50px;
+  width: 100%;
+  padding-left: 600px;
+  padding-top: 50px;
+}
+.contact-1 .a h6 {
+  padding-top: 50px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.contact-1 .b {
+  height: 50px;
+  width: 100%;
+  padding-left: 350px;
+  padding-top: 20px;
+}
+.contact-1 .b h3 {
+  padding-top: 50px;
+  font-size: 50px;
+  color: aliceblue;
+}
+.contact-1 .c {
+  height: 100px;
+  width: 100%;
+}
+.contact-1 .c1 {
+  height: 100px;
+  width: 50%;
+  float: left;
+  padding-left: 550px;
+  padding-top: 100px;
+}
+.contact-1 .c1 button {
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  background: #3399ff;
+  color: aliceblue;
+  border: none;
+}
+.contact-1 .c2 {
+  height: 100px;
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.contact-1 .c2 a {
+  color: aliceblue;
+}
+.contact-box {
+    width: 300px;
+    height: 150px;
+    background: white;
+    position: relative;
+    left: 1100px;
+    top: 150px;
+    border-radius: 5px;
+}
+.contact-box .cb-upper{
+    height: 50%;
+    display: flex;
+}
+.contact-box .cb-upper-r p{
+    margin: 5px 0px;
+}
+
+/*------------------ CSS for Footer Section ---------------*/
+.footer-1 {
+  height: 400px;
+  width: 25%;
+  background: #0b2432;
+  float: left;
+}
+.footer-1 h5 {
+  padding-top: 100px;
+  padding-left: 100px;
+  color: aliceblue;
+}
+.footer-1 ul li {
+  list-style: none;
+  padding-left: 70px;
+  color: aliceblue;
+}
+.footer-1 a {
+  color: aliceblue;
+}
+.footer-2 {
+  height: 400px;
+  width: 25%;
+  background: #0b2432;
+  float: left;
+}
+.footer-2 h5 {
+  padding-top: 100px;
+  padding-left: 100px;
+  color: aliceblue;
+}
+.footer-2 ul li {
+  list-style: none;
+  padding-left: 70px;
+  color: aliceblue;
+}
+.footer-2 a {
+  color: aliceblue;
+}
+.footer-3 {
+  height: 400px;
+  width: 25%;
+  background: #0b2432;
+  float: left;
+}
+.footer-3 h5 {
+  padding-top: 100px;
+  padding-left: 100px;
+  color: aliceblue;
+}
+.footer-3 ul li {
+  list-style: none;
+  padding-left: 70px;
+  color: aliceblue;
+}
+.footer-3 a {
+  color: aliceblue;
+}
+.footer-4 {
+  height: 400px;
+  width: 25%;
+  float: left;
+  background: #0b2432;
+}
+.footer-4-2 {
+  height: 300px;
+  width: 100%;
+  background: #0b2432;
+}
+.footer-4-2 h5 {
+  padding-top: 150px;
+  padding-left: 100px;
+  color: aliceblue;
+}
+.footer-4-2 ul li {
+  list-style: none;
+  padding-left: 70px;
+  color: aliceblue;
+}
+.footer-4-2 a {
+  color: aliceblue;
+}
+.hospital {
+  height: 250px;
+  width: 100%;
+  border-top: 2px solid white;
+  background: #0b2432;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hospital-1 {
+  width: 500px;
+}
+.hospital-1 img {
+  width: 500px;
+  height: 150px;
+}
+.hospital-2 {
+  width: 600px;
+}
+.hospital-2 h3 {
+  padding-left: 40px;
+}
+.hospital-2 p {
+  font-size: 13px;
+  padding-left: 40px;
+}
+.hospital-3 {
+  height: 200px;
+  width: 350px;
+}
+.hospital-3 h2 {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.hospital-3 a i{
+    margin-left: 20px;
+}
+.hospital-3 h3 {
+  padding-left: 50px;
+}
+.hospital-3 h4 {
+  padding-left: 50px;
+}
+.copyright {
+  height: 100px;
+  width: 100%;
+  background: #00ccff;
+  display: flex;
+}
+.text-1 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.text-1 h6 {
+  color: aliceblue;
+}
+.text-3 {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.text-3 h6 {
+  color: aliceblue;
+}
